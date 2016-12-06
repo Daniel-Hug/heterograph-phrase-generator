@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Heterograph Phrase Generator</title>
+	<style>
+		#input-form {
+			text-align: center;
+		}
+		#input-form textarea {
+			display: block;
+			width: 80%;
+			margin: 1em auto;
+		}
+	</style>
+</head>
+<body>
+	<p>This is a web app that changes the words used in common English phrases such that when the new (hopefully) meaningless-looking phrase is pronounced it sounds the same as the original. I.e., it changes the words in a phrase while keeping the pronunciation the same.</p>
+
+	<form id="input-form">
+		<textarea name="phrase-input" placeholder="enter your phrase..."></textarea>
+		<button>Generate Heterograph</button>
+	</form>
+
+	<script src="script/helpers.js"></script>
+	<script src="script/app.js"></script>
+</body>
+</html>
