@@ -1,0 +1,41 @@
+:focus {
+	outline: 2px solid red;
+}
+
+body {
+	width: 70%;
+	margin: 0 auto;
+	font-size: 28px;
+	line-height: 1.8;
+	font-family: Arial, sans-serif;
+}
+
+.intro-p {
+	margin: 60px 0;
+}
+
+#input-form {
+	text-align: center;
+}
+#input-form textarea {
+	display: block;
+	box-sizing: border-box;
+	width: 70%;
+	border: 8px solid black;
+	padding: 8px;
+	margin: 1.5em auto 8px;
+	font-size: 18px;
+	resize: vertical;
+}
+#input-form button {
+	display: block;
+	border: 0;
+	padding: 12px 30px;
+	margin: 0;
+	margin-right: 15%;
+	float: right;
+	font-size: 18px;
+	background: black;
+	color: white;
+	cursor: pointer;
+}
