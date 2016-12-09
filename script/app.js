@@ -58,7 +58,7 @@ function fetchDictionary() {
 	console.log('fetching dictionary...');
 	console.time('dictionary fetch');
 
-	return fetch('cmudict/cmudict.dict').then(function(response) {
+	return fetch('bower_components/cmudict/cmudict.dict').then(function(response) {
 		// cache response in localStorage
 		var promiseOfText = response.text();
 		promiseOfText.then(cacheDictionary);

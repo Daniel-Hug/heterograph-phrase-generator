@@ -1,0 +1,20 @@
+{
+  "name": "heterograph-phrase-generator",
+  "homepage": "https://github.com/Daniel-Hug/heterograph-phrase-generator",
+  "authors": [
+    "Daniel Hug <daniel@hugwebdesign.com>"
+  ],
+  "description": "",
+  "main": "index.html",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "cmudict": "cmusphinx/cmudict"
+  }
+}
